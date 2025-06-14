@@ -1,4 +1,4 @@
-# HW2_FC - Pendulum Simulation Variants
+# Pendulum Simulation Variants
 
 ## Overview
 This assignment involves implementing pendulum simulations with varying complexity levels. All variants are based on the model presented in the meeting and require dynamic simulation of pendulum motion.
@@ -14,7 +14,7 @@ This assignment involves implementing pendulum simulations with varying complexi
 - Reproduce the chaotic evolution illustration from the provided reference
 - Visualize how small initial differences lead to dramatically different trajectories
 
-**Key Features**:
+**Features**:
 - Multiple pendulum comparison
 - Chaos visualization
 - Sensitivity to initial conditions demonstration
@@ -28,9 +28,9 @@ This assignment involves implementing pendulum simulations with varying complexi
 - Implement a **triple pendulum** system
 - Account for gravitational effects between all three masses
 - Simulate realistic motion dynamics
-- Handle increased complexity of three-body pendulum interactions
+- Handle the increased complexity of three-body pendulum interactions
 
-**Key Features**:
+**Features**:
 - Three-mass system dynamics
 - Gravitational coupling between masses
 - Complex motion patterns
@@ -48,7 +48,7 @@ This assignment involves implementing pendulum simulations with varying complexi
 - **Monitor total energy** at each simulation step
 - Include **compensation mechanism** for numerical errors
 
-**Key Features**:
+**Features**:
 - Energy conservation algorithm
 - Real-time energy monitoring
 - Numerical error compensation
@@ -65,12 +65,12 @@ This assignment involves implementing pendulum simulations with varying complexi
 ### Common Requirements
 - Use the model framework from the meeting as the foundation
 - Implement proper numerical integration methods
-- Include visualization of pendulum motion
+- Include a visualization of pendulum motion
 - Provide real-time simulation capabilities
 
 ### Recommended Approach
-1. Start with basic double pendulum equations of motion
-2. Implement appropriate numerical solver (Runge-Kutta recommended)
+1. Start with the basic double pendulum equations of motion
+2. Implement an appropriate numerical solver (Runge-Kutta recommended)
 3. Add variant-specific features (multiple pendulums, energy control, etc.)
 4. Include visualization and data output capabilities
 
